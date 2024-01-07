@@ -64,14 +64,12 @@ table {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    font-weight: bold;
 }
 
 .table-row td{
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    font-weight: bold;
 }
 
 table, td, th {
@@ -82,7 +80,6 @@ table, td, th {
 .full-half{
     display: flex;
     width: 90%;
-    font-weight: bold;
 }
 
 .full{
@@ -109,12 +106,10 @@ table, td, th {
 
 .full-half-heading td{
     font-size: 18px;
-    font-weight: bold;
 }
 
 .table-data{
     font-size: 17px;
-    font-weight: bold;
 }
 
 .last-table{
