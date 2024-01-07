@@ -12,6 +12,10 @@ const Navbar = () => {
     setIsActive(!isActive);
   };
 
+  const HideHamburgerMenu = () =>{
+    setIsActive(!isActive);
+  }
+
   return (
     <div className="navbar-container">
       <div className="top-ribbon">
@@ -34,12 +38,12 @@ const Navbar = () => {
       </div>
       <div className={`navbar-list-container ${isActive ? 'active' : ''}`}>
         <ul className="navbar-list">
-          <li><Link className="link" href='/' style={{textDecoration: 'none'}}>Main Page</Link></li>
-          <li><Link className="link" href='/about' style={{textDecoration: 'none'}}>About Us</Link></li>
-          <li><Link className="link" href='/gallery' style={{textDecoration: 'none'}}>Gallery</Link></li>
-          <li><Link className="link" href='/contact' style={{textDecoration: 'none'}}>Contact</Link></li>
-          <li><Link className="link" href='/davp-rni' style={{textDecoration: 'none'}}>DAVP/RNI</Link></li>
-          <li><Link className="link" href='/advertisement' style={{textDecoration: 'none'}}>Advertising Rate</Link></li>        
+          <li><Link className="link" onClick={HideHamburgerMenu} href='/' style={{textDecoration: 'none'}}>Main Page</Link></li>
+          <li><Link className="link" onClick={HideHamburgerMenu} href='/about' style={{textDecoration: 'none'}}>About Us</Link></li>
+          <li><Link className="link" onClick={HideHamburgerMenu} href='/gallery' style={{textDecoration: 'none'}}>Gallery</Link></li>
+          <li><Link className="link" onClick={HideHamburgerMenu} href='/contact' style={{textDecoration: 'none'}}>Contact</Link></li>
+          <li><Link className="link" onClick={HideHamburgerMenu} href='/davp-rni' style={{textDecoration: 'none'}}>DAVP/RNI</Link></li>
+          <li><Link className="link advertisement" onClick={HideHamburgerMenu} href='/advertisement' style={{textDecoration: 'none'}}>Advertising Rate</Link></li>        
         </ul>
         <Link style={{textDecoration: 'none'}} href='/login'>
           <button className="login-button">
