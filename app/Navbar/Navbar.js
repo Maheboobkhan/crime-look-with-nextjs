@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-title-container">
         <div className="navbar-title-1"></div>
-        <Image src='/logo.png' className="img" alt="logo" width={100} height={40} />
+        <Image src='/logo.svg' className="img" alt="logo" width={130} height={50} />
       </div>
       <div className="hamburger-menu" onClick={toggleSidebar}>
         <div></div>
