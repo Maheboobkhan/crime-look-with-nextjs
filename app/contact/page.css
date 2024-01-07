@@ -38,7 +38,6 @@
     justify-content: space-between;
     margin-top: 50px;
     padding: 0 20px;
-    font-weight: bold;
   }
 
   .office-address .office-1{
@@ -105,7 +104,6 @@
 
   .phone-email div div p{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     letter-spacing: 1.5px;
   }
 
@@ -141,16 +139,11 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #222115;
-    font-weight: bold;
   }
 
   .crime-look-group-heading div .img{
     width: 130px;
-    /* border-radius: 10px; */
-    /* padding: 2px; */
-    /* border: 0.5px solid #161509; */
     box-shadow: inset 0px 0px 50px 1px #161509;
-    /* margin: 5px 0; */
     margin-left: 50px;
     transform: skew(20deg);
   }
@@ -202,7 +195,6 @@
     font-size: 18px;
     font-weight: 400;
     margin-top: 50px;
-    font-weight: bold;
   }
 
   .crime-look-group div p{
@@ -210,7 +202,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    font-weight: bold;
   }
 
   .bureau-reporter-container{
@@ -235,13 +226,10 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 30px;
-    font-weight: bold;
   }
 
   .heading-para{
-    /* border: 1px solid red; */
     width: 55%;
-    font-weight: bold;
   }
 
   .heading-para h5{
@@ -249,7 +237,6 @@
     font-size: 18px;
     font-weight: 400;
     margin-top: 35px;
-    font-weight: bold;
   }
 
   .heading-para p{
@@ -257,7 +244,6 @@
     font-size: 14px;
     font-weight: 400;
     margin-top: 5px;
-    font-weight: bold;
   }
 
   iframe{
@@ -278,7 +264,6 @@
     font-weight: 400; 
     margin-top: 8px;
     text-align: center;
-    font-weight: bold;
   }
 
 

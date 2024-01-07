@@ -44,7 +44,6 @@
   .about-para-container p{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    font-weight: bold;
   }
 
   @media (max-width:768px){
