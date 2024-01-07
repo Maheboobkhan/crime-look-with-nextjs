@@ -46,7 +46,7 @@ const Navbar = () => {
           <li><Link className="link advertisement" onClick={HideHamburgerMenu} href='/advertisement' style={{textDecoration: 'none'}}>Advertising Rate</Link></li>        
         </ul>
         <Link style={{textDecoration: 'none'}} href='/login'>
-          <button className="login-button">
+          <button className="login-button" onClick={HideHamburgerMenu}>
             <FaSignInAlt className="login-icon" />
             Log In
           </button>
