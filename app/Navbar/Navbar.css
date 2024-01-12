@@ -71,13 +71,15 @@
     height: 90px;
     width: 20%;
     position: relative;
-    background-color :#fbe122;
+    /* background-color :#fbe122; */
+    background-color:#5c4343;
 }
 
 .navbar-title-1{
     height: 100%;
     width: 100%;
-    background-color: #fbe122;
+    /* background-color: #fbe122; */
+    background-color:#5c4343;
     transform: skew(-20deg);
     position: absolute;
     left: 40px;
@@ -131,7 +133,8 @@
 }
 
 .navbar-list li:hover{
-    border-bottom: 3px solid #fbe122;
+    /* border-bottom: 3px solid #fbe122; */
+    border-bottom: 3px solid #5c4343;
     color:#7b7777;
     transition: 0.1s all ease-in-out;
 }
