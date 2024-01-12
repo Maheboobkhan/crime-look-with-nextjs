@@ -41,7 +41,8 @@
   }
 
   .office-address .office-1{
-    background-color: #fbe122;
+    /* background-color: #fbe122; */
+    background-color: #5c4343;
     color: #161509;
     width: 70px;
     height: 70px;
@@ -50,7 +51,8 @@
   }
 
   .office-address .office-2{
-    background-color: #fbe122;
+    /* background-color: #fbe122; */
+    background-color: #5c4343;
     color: #161509;
     width: 70px;
     height: 70px;
@@ -124,7 +126,8 @@
 
   .crime-look-group-heading{
     margin-top: 100px;
-    background-color: #fbe122;
+    /* background-color: #fbe122; */
+    background-color: #5c4343;
   }
 
 
