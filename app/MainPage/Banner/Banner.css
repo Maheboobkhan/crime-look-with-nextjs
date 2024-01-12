@@ -31,13 +31,15 @@
 .banner-box h1{
   font-family: 'Teko', sans-serif;
     font-size: 45px;
-    color: #161509;
+    /* color: #161509; */
+    color: #fff;
     font-weight: 400;
 }
 
 .banner-box p{
   font-family: 'Montserrat', sans-serif;
-  color: #161509;
+  /* color: #161509; */
+  color: #fff;
   font-size: 14px;
   margin-top: 20px;
 }
